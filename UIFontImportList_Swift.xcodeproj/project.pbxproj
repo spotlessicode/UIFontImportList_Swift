@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D412BB6B1CB2717D00EF8CBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D412BB6A1CB2717D00EF8CBE /* AppDelegate.swift */; };
+		D412BB6D1CB2717D00EF8CBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D412BB6C1CB2717D00EF8CBE /* ViewController.swift */; };
+		D412BB701CB2717D00EF8CBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D412BB6E1CB2717D00EF8CBE /* Main.storyboard */; };
+		D412BB731CB2717D00EF8CBE /* UIFontImportList_Swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D412BB711CB2717D00EF8CBE /* UIFontImportList_Swift.xcdatamodeld */; };
+		D412BB751CB2717D00EF8CBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D412BB741CB2717D00EF8CBE /* Assets.xcassets */; };
+		D412BB781CB2717D00EF8CBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D412BB761CB2717D00EF8CBE /* LaunchScreen.storyboard */; };
+		D412BB831CB2717D00EF8CBE /* UIFontImportList_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D412BB821CB2717D00EF8CBE /* UIFontImportList_SwiftTests.swift */; };
+		D412BB8E1CB2717D00EF8CBE /* UIFontImportList_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D412BB8D1CB2717D00EF8CBE /* UIFontImportList_SwiftUITests.swift */; };
+		D412BBF51CB27EDA00EF8CBE /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBEB1CB27EDA00EF8CBE /* Lato-Black.ttf */; };
+		D412BBF61CB27EDA00EF8CBE /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBEB1CB27EDA00EF8CBE /* Lato-Black.ttf */; };
+		D412BBF71CB27EDA00EF8CBE /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBEB1CB27EDA00EF8CBE /* Lato-Black.ttf */; };
+		D412BBF81CB27EDA00EF8CBE /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBEC1CB27EDA00EF8CBE /* Lato-BlackItalic.ttf */; };
+		D412BBF91CB27EDA00EF8CBE /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBEC1CB27EDA00EF8CBE /* Lato-BlackItalic.ttf */; };
+		D412BBFA1CB27EDA00EF8CBE /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBEC1CB27EDA00EF8CBE /* Lato-BlackItalic.ttf */; };
+		D412BBFB1CB27EDA00EF8CBE /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBED1CB27EDA00EF8CBE /* Lato-Bold.ttf */; };
+		D412BBFC1CB27EDA00EF8CBE /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBED1CB27EDA00EF8CBE /* Lato-Bold.ttf */; };
+		D412BBFD1CB27EDA00EF8CBE /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBED1CB27EDA00EF8CBE /* Lato-Bold.ttf */; };
+		D412BBFE1CB27EDA00EF8CBE /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBEE1CB27EDA00EF8CBE /* Lato-BoldItalic.ttf */; };
+		D412BBFF1CB27EDA00EF8CBE /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBEE1CB27EDA00EF8CBE /* Lato-BoldItalic.ttf */; };
+		D412BC001CB27EDA00EF8CBE /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBEE1CB27EDA00EF8CBE /* Lato-BoldItalic.ttf */; };
+		D412BC011CB27EDA00EF8CBE /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBEF1CB27EDA00EF8CBE /* Lato-Hairline.ttf */; };
+		D412BC021CB27EDA00EF8CBE /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBEF1CB27EDA00EF8CBE /* Lato-Hairline.ttf */; };
+		D412BC031CB27EDA00EF8CBE /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBEF1CB27EDA00EF8CBE /* Lato-Hairline.ttf */; };
+		D412BC041CB27EDA00EF8CBE /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBF01CB27EDA00EF8CBE /* Lato-HairlineItalic.ttf */; };
+		D412BC051CB27EDA00EF8CBE /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBF01CB27EDA00EF8CBE /* Lato-HairlineItalic.ttf */; };
+		D412BC061CB27EDA00EF8CBE /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBF01CB27EDA00EF8CBE /* Lato-HairlineItalic.ttf */; };
+		D412BC071CB27EDA00EF8CBE /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBF11CB27EDA00EF8CBE /* Lato-Italic.ttf */; };
+		D412BC081CB27EDA00EF8CBE /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBF11CB27EDA00EF8CBE /* Lato-Italic.ttf */; };
+		D412BC091CB27EDA00EF8CBE /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBF11CB27EDA00EF8CBE /* Lato-Italic.ttf */; };
+		D412BC0A1CB27EDA00EF8CBE /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBF21CB27EDA00EF8CBE /* Lato-Light.ttf */; };
+		D412BC0B1CB27EDA00EF8CBE /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBF21CB27EDA00EF8CBE /* Lato-Light.ttf */; };
+		D412BC0C1CB27EDA00EF8CBE /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBF21CB27EDA00EF8CBE /* Lato-Light.ttf */; };
+		D412BC0D1CB27EDA00EF8CBE /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBF31CB27EDA00EF8CBE /* Lato-LightItalic.ttf */; };
+		D412BC0E1CB27EDA00EF8CBE /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBF31CB27EDA00EF8CBE /* Lato-LightItalic.ttf */; };
+		D412BC0F1CB27EDA00EF8CBE /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBF31CB27EDA00EF8CBE /* Lato-LightItalic.ttf */; };
+		D412BC101CB27EDA00EF8CBE /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBF41CB27EDA00EF8CBE /* Lato-Regular.ttf */; };
+		D412BC111CB27EDA00EF8CBE /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBF41CB27EDA00EF8CBE /* Lato-Regular.ttf */; };
+		D412BC121CB27EDA00EF8CBE /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D412BBF41CB27EDA00EF8CBE /* Lato-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D412BB7F1CB2717D00EF8CBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D412BB5F1CB2717C00EF8CBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D412BB661CB2717D00EF8CBE;
+			remoteInfo = UIFontImportList_Swift;
+		};
+		D412BB8A1CB2717D00EF8CBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D412BB5F1CB2717C00EF8CBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D412BB661CB2717D00EF8CBE;
+			remoteInfo = UIFontImportList_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D412BB671CB2717D00EF8CBE /* UIFontImportList_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIFontImportList_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D412BB6A1CB2717D00EF8CBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D412BB6C1CB2717D00EF8CBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D412BB6F1CB2717D00EF8CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D412BB721CB2717D00EF8CBE /* UIFontImportList_Swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UIFontImportList_Swift.xcdatamodel; sourceTree = "<group>"; };
+		D412BB741CB2717D00EF8CBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D412BB771CB2717D00EF8CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D412BB791CB2717D00EF8CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D412BB7E1CB2717D00EF8CBE /* UIFontImportList_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIFontImportList_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D412BB821CB2717D00EF8CBE /* UIFontImportList_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontImportList_SwiftTests.swift; sourceTree = "<group>"; };
+		D412BB841CB2717D00EF8CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D412BB891CB2717D00EF8CBE /* UIFontImportList_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIFontImportList_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D412BB8D1CB2717D00EF8CBE /* UIFontImportList_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontImportList_SwiftUITests.swift; sourceTree = "<group>"; };
+		D412BB8F1CB2717D00EF8CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D412BBEB1CB27EDA00EF8CBE /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		D412BBEC1CB27EDA00EF8CBE /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		D412BBED1CB27EDA00EF8CBE /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		D412BBEE1CB27EDA00EF8CBE /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D412BBEF1CB27EDA00EF8CBE /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		D412BBF01CB27EDA00EF8CBE /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		D412BBF11CB27EDA00EF8CBE /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		D412BBF21CB27EDA00EF8CBE /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		D412BBF31CB27EDA00EF8CBE /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		D412BBF41CB27EDA00EF8CBE /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D412BB641CB2717D00EF8CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D412BB7B1CB2717D00EF8CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D412BB861CB2717D00EF8CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D412BB5E1CB2717C00EF8CBE = {
+			isa = PBXGroup;
+			children = (
+				D412BB691CB2717D00EF8CBE /* UIFontImportList_Swift */,
+				D412BB811CB2717D00EF8CBE /* UIFontImportList_SwiftTests */,
+				D412BB8C1CB2717D00EF8CBE /* UIFontImportList_SwiftUITests */,
+				D412BB681CB2717D00EF8CBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D412BB681CB2717D00EF8CBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D412BB671CB2717D00EF8CBE /* UIFontImportList_Swift.app */,
+				D412BB7E1CB2717D00EF8CBE /* UIFontImportList_SwiftTests.xctest */,
+				D412BB891CB2717D00EF8CBE /* UIFontImportList_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D412BB691CB2717D00EF8CBE /* UIFontImportList_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				D412BB6A1CB2717D00EF8CBE /* AppDelegate.swift */,
+				D412BB6C1CB2717D00EF8CBE /* ViewController.swift */,
+				D412BB6E1CB2717D00EF8CBE /* Main.storyboard */,
+				D412BB741CB2717D00EF8CBE /* Assets.xcassets */,
+				D412BB761CB2717D00EF8CBE /* LaunchScreen.storyboard */,
+				D412BB791CB2717D00EF8CBE /* Info.plist */,
+				D412BB711CB2717D00EF8CBE /* UIFontImportList_Swift.xcdatamodeld */,
+				D412BBEB1CB27EDA00EF8CBE /* Lato-Black.ttf */,
+				D412BBEC1CB27EDA00EF8CBE /* Lato-BlackItalic.ttf */,
+				D412BBED1CB27EDA00EF8CBE /* Lato-Bold.ttf */,
+				D412BBEE1CB27EDA00EF8CBE /* Lato-BoldItalic.ttf */,
+				D412BBEF1CB27EDA00EF8CBE /* Lato-Hairline.ttf */,
+				D412BBF01CB27EDA00EF8CBE /* Lato-HairlineItalic.ttf */,
+				D412BBF11CB27EDA00EF8CBE /* Lato-Italic.ttf */,
+				D412BBF21CB27EDA00EF8CBE /* Lato-Light.ttf */,
+				D412BBF31CB27EDA00EF8CBE /* Lato-LightItalic.ttf */,
+				D412BBF41CB27EDA00EF8CBE /* Lato-Regular.ttf */,
+			);
+			path = UIFontImportList_Swift;
+			sourceTree = "<group>";
+		};
+		D412BB811CB2717D00EF8CBE /* UIFontImportList_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				D412BB821CB2717D00EF8CBE /* UIFontImportList_SwiftTests.swift */,
+				D412BB841CB2717D00EF8CBE /* Info.plist */,
+			);
+			path = UIFontImportList_SwiftTests;
+			sourceTree = "<group>";
+		};
+		D412BB8C1CB2717D00EF8CBE /* UIFontImportList_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D412BB8D1CB2717D00EF8CBE /* UIFontImportList_SwiftUITests.swift */,
+				D412BB8F1CB2717D00EF8CBE /* Info.plist */,
+			);
+			path = UIFontImportList_SwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D412BB661CB2717D00EF8CBE /* UIFontImportList_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D412BB921CB2717D00EF8CBE /* Build configuration list for PBXNativeTarget "UIFontImportList_Swift" */;
+			buildPhases = (
+				D412BB631CB2717D00EF8CBE /* Sources */,
+				D412BB641CB2717D00EF8CBE /* Frameworks */,
+				D412BB651CB2717D00EF8CBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIFontImportList_Swift;
+			productName = UIFontImportList_Swift;
+			productReference = D412BB671CB2717D00EF8CBE /* UIFontImportList_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D412BB7D1CB2717D00EF8CBE /* UIFontImportList_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D412BB951CB2717D00EF8CBE /* Build configuration list for PBXNativeTarget "UIFontImportList_SwiftTests" */;
+			buildPhases = (
+				D412BB7A1CB2717D00EF8CBE /* Sources */,
+				D412BB7B1CB2717D00EF8CBE /* Frameworks */,
+				D412BB7C1CB2717D00EF8CBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D412BB801CB2717D00EF8CBE /* PBXTargetDependency */,
+			);
+			name = UIFontImportList_SwiftTests;
+			productName = UIFontImportList_SwiftTests;
+			productReference = D412BB7E1CB2717D00EF8CBE /* UIFontImportList_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D412BB881CB2717D00EF8CBE /* UIFontImportList_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D412BB981CB2717D00EF8CBE /* Build configuration list for PBXNativeTarget "UIFontImportList_SwiftUITests" */;
+			buildPhases = (
+				D412BB851CB2717D00EF8CBE /* Sources */,
+				D412BB861CB2717D00EF8CBE /* Frameworks */,
+				D412BB871CB2717D00EF8CBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D412BB8B1CB2717D00EF8CBE /* PBXTargetDependency */,
+			);
+			name = UIFontImportList_SwiftUITests;
+			productName = UIFontImportList_SwiftUITests;
+			productReference = D412BB891CB2717D00EF8CBE /* UIFontImportList_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D412BB5F1CB2717C00EF8CBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Pepzen Ltd.";
+				TargetAttributes = {
+					D412BB661CB2717D00EF8CBE = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = HMF66UJK5N;
+					};
+					D412BB7D1CB2717D00EF8CBE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D412BB661CB2717D00EF8CBE;
+					};
+					D412BB881CB2717D00EF8CBE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D412BB661CB2717D00EF8CBE;
+					};
+				};
+			};
+			buildConfigurationList = D412BB621CB2717C00EF8CBE /* Build configuration list for PBXProject "UIFontImportList_Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D412BB5E1CB2717C00EF8CBE;
+			productRefGroup = D412BB681CB2717D00EF8CBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D412BB661CB2717D00EF8CBE /* UIFontImportList_Swift */,
+				D412BB7D1CB2717D00EF8CBE /* UIFontImportList_SwiftTests */,
+				D412BB881CB2717D00EF8CBE /* UIFontImportList_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D412BB651CB2717D00EF8CBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D412BC071CB27EDA00EF8CBE /* Lato-Italic.ttf in Resources */,
+				D412BBF51CB27EDA00EF8CBE /* Lato-Black.ttf in Resources */,
+				D412BBFB1CB27EDA00EF8CBE /* Lato-Bold.ttf in Resources */,
+				D412BC0A1CB27EDA00EF8CBE /* Lato-Light.ttf in Resources */,
+				D412BB781CB2717D00EF8CBE /* LaunchScreen.storyboard in Resources */,
+				D412BBF81CB27EDA00EF8CBE /* Lato-BlackItalic.ttf in Resources */,
+				D412BB751CB2717D00EF8CBE /* Assets.xcassets in Resources */,
+				D412BC0D1CB27EDA00EF8CBE /* Lato-LightItalic.ttf in Resources */,
+				D412BC041CB27EDA00EF8CBE /* Lato-HairlineItalic.ttf in Resources */,
+				D412BBFE1CB27EDA00EF8CBE /* Lato-BoldItalic.ttf in Resources */,
+				D412BC101CB27EDA00EF8CBE /* Lato-Regular.ttf in Resources */,
+				D412BC011CB27EDA00EF8CBE /* Lato-Hairline.ttf in Resources */,
+				D412BB701CB2717D00EF8CBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D412BB7C1CB2717D00EF8CBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D412BBF91CB27EDA00EF8CBE /* Lato-BlackItalic.ttf in Resources */,
+				D412BC081CB27EDA00EF8CBE /* Lato-Italic.ttf in Resources */,
+				D412BC021CB27EDA00EF8CBE /* Lato-Hairline.ttf in Resources */,
+				D412BC051CB27EDA00EF8CBE /* Lato-HairlineItalic.ttf in Resources */,
+				D412BBFC1CB27EDA00EF8CBE /* Lato-Bold.ttf in Resources */,
+				D412BBF61CB27EDA00EF8CBE /* Lato-Black.ttf in Resources */,
+				D412BBFF1CB27EDA00EF8CBE /* Lato-BoldItalic.ttf in Resources */,
+				D412BC111CB27EDA00EF8CBE /* Lato-Regular.ttf in Resources */,
+				D412BC0E1CB27EDA00EF8CBE /* Lato-LightItalic.ttf in Resources */,
+				D412BC0B1CB27EDA00EF8CBE /* Lato-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D412BB871CB2717D00EF8CBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D412BBFA1CB27EDA00EF8CBE /* Lato-BlackItalic.ttf in Resources */,
+				D412BC091CB27EDA00EF8CBE /* Lato-Italic.ttf in Resources */,
+				D412BC031CB27EDA00EF8CBE /* Lato-Hairline.ttf in Resources */,
+				D412BC061CB27EDA00EF8CBE /* Lato-HairlineItalic.ttf in Resources */,
+				D412BBFD1CB27EDA00EF8CBE /* Lato-Bold.ttf in Resources */,
+				D412BBF71CB27EDA00EF8CBE /* Lato-Black.ttf in Resources */,
+				D412BC001CB27EDA00EF8CBE /* Lato-BoldItalic.ttf in Resources */,
+				D412BC121CB27EDA00EF8CBE /* Lato-Regular.ttf in Resources */,
+				D412BC0F1CB27EDA00EF8CBE /* Lato-LightItalic.ttf in Resources */,
+				D412BC0C1CB27EDA00EF8CBE /* Lato-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D412BB631CB2717D00EF8CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D412BB6D1CB2717D00EF8CBE /* ViewController.swift in Sources */,
+				D412BB731CB2717D00EF8CBE /* UIFontImportList_Swift.xcdatamodeld in Sources */,
+				D412BB6B1CB2717D00EF8CBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D412BB7A1CB2717D00EF8CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D412BB831CB2717D00EF8CBE /* UIFontImportList_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D412BB851CB2717D00EF8CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D412BB8E1CB2717D00EF8CBE /* UIFontImportList_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D412BB801CB2717D00EF8CBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D412BB661CB2717D00EF8CBE /* UIFontImportList_Swift */;
+			targetProxy = D412BB7F1CB2717D00EF8CBE /* PBXContainerItemProxy */;
+		};
+		D412BB8B1CB2717D00EF8CBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D412BB661CB2717D00EF8CBE /* UIFontImportList_Swift */;
+			targetProxy = D412BB8A1CB2717D00EF8CBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D412BB6E1CB2717D00EF8CBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D412BB6F1CB2717D00EF8CBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D412BB761CB2717D00EF8CBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D412BB771CB2717D00EF8CBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D412BB901CB2717D00EF8CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D412BB911CB2717D00EF8CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D412BB931CB2717D00EF8CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = UIFontImportList_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pepzen.UIFontImportList-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D412BB941CB2717D00EF8CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = UIFontImportList_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pepzen.UIFontImportList-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		D412BB961CB2717D00EF8CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UIFontImportList_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pepzen.UIFontImportList-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIFontImportList_Swift.app/UIFontImportList_Swift";
+			};
+			name = Debug;
+		};
+		D412BB971CB2717D00EF8CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UIFontImportList_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pepzen.UIFontImportList-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIFontImportList_Swift.app/UIFontImportList_Swift";
+			};
+			name = Release;
+		};
+		D412BB991CB2717D00EF8CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UIFontImportList_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pepzen.UIFontImportList-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UIFontImportList_Swift;
+			};
+			name = Debug;
+		};
+		D412BB9A1CB2717D00EF8CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UIFontImportList_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pepzen.UIFontImportList-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UIFontImportList_Swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D412BB621CB2717C00EF8CBE /* Build configuration list for PBXProject "UIFontImportList_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D412BB901CB2717D00EF8CBE /* Debug */,
+				D412BB911CB2717D00EF8CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D412BB921CB2717D00EF8CBE /* Build configuration list for PBXNativeTarget "UIFontImportList_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D412BB931CB2717D00EF8CBE /* Debug */,
+				D412BB941CB2717D00EF8CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D412BB951CB2717D00EF8CBE /* Build configuration list for PBXNativeTarget "UIFontImportList_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D412BB961CB2717D00EF8CBE /* Debug */,
+				D412BB971CB2717D00EF8CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D412BB981CB2717D00EF8CBE /* Build configuration list for PBXNativeTarget "UIFontImportList_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D412BB991CB2717D00EF8CBE /* Debug */,
+				D412BB9A1CB2717D00EF8CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D412BB711CB2717D00EF8CBE /* UIFontImportList_Swift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D412BB721CB2717D00EF8CBE /* UIFontImportList_Swift.xcdatamodel */,
+			);
+			currentVersion = D412BB721CB2717D00EF8CBE /* UIFontImportList_Swift.xcdatamodel */;
+			path = UIFontImportList_Swift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D412BB5F1CB2717C00EF8CBE /* Project object */;
+}
